@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Lakes";
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.burger__img {
+    background-image: url("img/burger.svg");
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 24px;
+    
+}
+
+.group__img {
+    background-image: url("img/Group.svg");
+    width: 97px;
+    height: 51px;
+    margin-left: 40px;
+}
+
+.search__img {
+    background-image: url("img/search.svg");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 24px;
+}
+
+.highlight__img {
+    background-image: url("img/highlight.svg");
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left:0;
+    margin-top: -5px;
+    
+}
+
+.container__list {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.container__list_text {
+    margin-top: 20px;
+    font-size: 16px; 
+    color: #1B1C21;
+}
+
+.container__list_text--title {
+    color: #7E7E82;
+}
+
+.route__ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 268px;
+}
+
+.call__img {
+background-image: url("img/call.svg");
+width: 40px;
+height: 40px;
+}
+
+.chat__img {
+    background-image: url("img/chat.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.profile__img {
+    background-image: url("img/profile.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.mail {
+    padding-left: 40px;
+    font-size: 16px;
+    color: #1B1C21;
+}
+
+.number {
+    padding-left: 40px;
+    margin-top: 12px;
+    font-size: 24px;
+    color: #1B1C21;
+    font-weight: bold;
+}
+
+.language {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.language__li {
+    text-decoration: none;
+    
+}
+
+.ru__a {
+    text-decoration: none;
+    color: #7E7E82;
+}
+
+.en__a {
+    text-decoration: none;  
+    color: #1B1C21;
+}
+
+.ch__a {
+    text-decoration: none; 
+    color: #1B1C21;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.number__a {
+color: black;
+}
+
+.mail__a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.container__list_text,
+.container__list_text--title {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+    .container__list_text:hover,
+.container__list_text--title:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+ }
